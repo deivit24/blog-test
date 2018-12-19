@@ -1,0 +1,12 @@
+#output .title {
+  color: #333;
+  font-family: "Merriweather", serif; }
+
+#output .tag {
+  font-family: "Raleway", sans-serif; }
+
+#output .date {
+  font-family: "Roboto", sans-serif; }
+
+#output .body {
+  font-family: "Lato", sans-serif; }

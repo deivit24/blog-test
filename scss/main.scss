@@ -1,0 +1,27 @@
+$title:'Merriweather',
+serif;
+$tag: 'Raleway',
+sans-serif;
+$date: 'Roboto',
+sans-serif;
+$body: 'Lato',
+sans-serif;
+
+#output {
+  .title {
+    color: #333;
+    font-family: $title;
+  }
+
+  .tag {
+    font-family: $tag;
+  }
+
+  .date {
+    font-family: $date;
+  }
+
+  .body {
+    font-family: $body;
+  }
+}
