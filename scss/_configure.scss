@@ -1,0 +1,24 @@
+$title: 'Merriweather',
+serif;
+$tag: 'Raleway',
+sans-serif;
+$date: 'Roboto',
+sans-serif;
+$body: 'Lato',
+sans-serif;
+
+$millennials: red;
+$retirement: blue;
+$accumilation: green;
+
+.gold {
+  color: $millennials !important;
+}
+
+.blue {
+  color: $retirement !important;
+}
+
+.green {
+  color: $accumilation !important;
+}

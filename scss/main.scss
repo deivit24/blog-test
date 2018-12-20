@@ -1,11 +1,4 @@
-$title:'Merriweather',
-serif;
-$tag: 'Raleway',
-sans-serif;
-$date: 'Roboto',
-sans-serif;
-$body: 'Lato',
-sans-serif;
+@import 'configure';
 
 #output {
   .title {
@@ -24,4 +17,5 @@ sans-serif;
   .body {
     font-family: $body;
   }
+
 }

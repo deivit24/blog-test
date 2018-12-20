@@ -1,7 +1,16 @@
 [{
 
+    "title": "blah blah",
+    "tag": "Accumilation",
+    "color": "green",
+    "date": "Dec 20 2018",
+    "body": "This is post one ergelk pgef ppker te[pksdhf flha hello my name is david salzasr hello my name is david salazar heloo my bame is david salzaat asgelffakjgskfkjf afhlkerfgtervte yeyeth etyet geeg eer terte trerte "
+  },
+  {
+
     "title": "recent",
     "tag": "Millenial",
+    "color": "gold",
     "date": "Dec 20 2018",
     "body": "This is post one ergelk pgef ppker te[pksdhf flha hello my name is david salzasr hello my name is david salazar heloo my bame is david salzaat asgelffakjgskfkjf afhlkerfgtervte yeyeth etyet geeg eer terte trerte "
   },
@@ -9,18 +18,21 @@
 
     "title": "Post One",
     "tag": "Millenial",
+    "color": "gold",
     "date": "Dec 16 2018",
     "body": "This is post one ergelk pgef ppker te[pksdhf flha hello my name is david salzasr hello my name is david salazar heloo my bame is david salzaat asgelffakjgskfkjf afhlke"
   },
   {
     "title": "Post Two",
     "tag": "Millenial",
+    "color": "gold",
     "date": "Dec 16 2018",
     "body": "This is post two"
   },
   {
     "title": "Post Three",
     "tag": "Retirement",
+    "color": "blue",
     "date": "Dec 16 2018",
     "body": "This is post three"
   }

@@ -8,7 +8,7 @@ function getJson() {
       return res.json();
     })
     .then(function (data) {
-      console.log(data);
+
       let output = '';
       data.forEach(function (post) {
         output += `
@@ -16,7 +16,7 @@ function getJson() {
         <h1> ${post.title}</h1>
         </div>
         <div class="tag">
-        <h4>${post.tag}</h4>
+        <h4 class="${post.color}">${post.tag}</h4>
       </div>
       <div class="date">
     <p>${post.date}</p>
@@ -26,9 +26,9 @@ function getJson() {
   </div>
         `;
 
-
       });
       document.querySelector('#output').innerHTML = output;
+
 
     })
 
@@ -43,7 +43,7 @@ function recent() {
       return res.json();
     })
     .then(function (data) {
-      console.log(data);
+
       let recent = '';
 
       recent += `
@@ -51,7 +51,7 @@ function recent() {
       <h1>${data[0].title}</h1>
     </div>
     <div class="tag">
-      <h4>${data[0].tag}</h4>
+      <h4 class="${data[0].color}">${data[0].tag}</h4>
     </div>
     <div class="date">
       <p>${data[0].date}</p>
