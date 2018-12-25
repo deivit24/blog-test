@@ -19,3 +19,17 @@
 
 #output .body {
   font-family: "Lato", sans-serif; }
+
+#recent .title {
+  color: black;
+  padding: 15px 0px;
+  font-family: "Merriweather", serif; }
+
+#recent .tag {
+  font-family: "Raleway", sans-serif; }
+
+#recent .date {
+  font-family: "Roboto", sans-serif; }
+
+#recent .body {
+  font-family: "Lato", sans-serif; }

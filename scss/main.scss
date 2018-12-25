@@ -19,3 +19,24 @@
   }
 
 }
+
+#recent {
+  .title {
+    color: black;
+    padding: 15px 0px;
+    font-family: $title;
+  }
+
+  .tag {
+    font-family: $tag;
+  }
+
+  .date {
+    font-family: $date;
+  }
+
+  .body {
+    font-family: $body;
+  }
+
+}

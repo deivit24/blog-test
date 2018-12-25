@@ -12,6 +12,7 @@ function getJson() {
       let output = '';
       data.forEach(function (post) {
         output += `
+      
         <div class="title">
         <h1> ${post.title}</h1>
         </div>
